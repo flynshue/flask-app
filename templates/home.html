@@ -1,0 +1,16 @@
+{% extends "bulma.html" %}
+{% block title %}
+{{ app_name }}
+{% endblock %}
+{% block content %}
+<section class="hero is-large is-info">
+  <div class="hero-body has-background-black">
+    <p class="title">
+      {{ app_name }}
+    </p>
+    <p class="subtitle">
+      {{ app_name }} running on {{ host_name }}
+    </p>
+  </div>
+</section>
+{% endblock %}
